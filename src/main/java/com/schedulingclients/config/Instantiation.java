@@ -31,14 +31,16 @@ public class Instantiation implements CommandLineRunner {
         Client lucas = new Client(
                 (String) null, "Lucas Pereira",
                 "lucas@gmail.com",
+                "@58246@",
                 "masculino",
                 "14/03/1997",
                 "83986704633",
                 OrderStatus.NOT_SCHEDULED
-                );
+        );
         Client andre = new Client(
                 (String) null, "Andre Araujo",
                 "andre@gmail.com",
+                "8562%",
                 "masculino",
                 "04/12/1996",
                 "83986554498",
@@ -47,6 +49,7 @@ public class Instantiation implements CommandLineRunner {
         Client leticia = new Client(
                 (String) null, "Leticia Castro",
                 "leticia@gmail.com",
+                "djdjdkdlsjdfsj@@@@",
                 "feminina",
                 "02/08/2005",
                 "83996456522",

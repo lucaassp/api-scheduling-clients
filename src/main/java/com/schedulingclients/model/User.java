@@ -17,6 +17,8 @@ public abstract class User implements Serializable {
     private String id;
     private String name;
     private String email;
+
+    private String password;
     private String gender;
     private String birthDat;
     private String phone;
@@ -26,10 +28,11 @@ public abstract class User implements Serializable {
     public User() {
     }
 
-    public User(String id, String name, String email, String gender, String birthDat, String phone) {
+    public User(String id, String name, String email, String password, String gender, String birthDat, String phone) {
         this.id = id;
         this.name = name;
         this.email = email;
+        this.password = password;
         this.gender = gender;
         this.birthDat = birthDat;
         this.phone = phone;
@@ -57,6 +60,14 @@ public abstract class User implements Serializable {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getGender() {
